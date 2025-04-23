@@ -59,7 +59,8 @@ Las acciones que puede realizar cada actor son:
 
 #### • ¿Cómo se relacionan entre sí las entidades del sistema?
 
-Las entidades se relacionan mediante acciones, que en este caso serían los casos de uso u métodos del programa. En el caso del admin, tendría un caso de uso mayor denominado "Gestión de equipos y jugadores" que incluiría todas las funciones pequeñas (compartidas a su vez por el jugador, ya que este puede realizarlas también).
+Las entidades se relacionan mediante acciones, que en este caso serían los casos de uso y métodos del programa. En el caso del admin, tendría un caso de uso mayor denominado "Gestión de equipos y jugadores" que incluiría todas las funciones pequeñas (compartidas a su vez por el jugador, ya que este puede realizarlas también).
+El jugador, en caso de querer añadir jugador a un equipo y no haber equipos disponibles, extendería al caso de uso a registrar equipo para crear uno nuevo y así poder unirse.
 
 #### Identifica las clases principales en función de los casos de uso seleccionados.
 
