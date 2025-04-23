@@ -35,7 +35,7 @@ torneo-esports-uml/ ├── src/
 
 ## Instalación y Ejecución
 1. Clonar el repositorio:
-`git clone https://github.com/David-Gonzale-Alcañiz/torneo-esports-uml.git`
+`git clone https://github.com/David-Gonzalez-Alcañiz/torneo-esports-uml.git`
 
 2. Compilar y ejecutar el proyecto:
 `cd src javac es/empresa/torneo/Main.java java es.empresa.torneo.Main`
