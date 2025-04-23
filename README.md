@@ -35,7 +35,7 @@ torneo-esports-uml/ ├── src/
 
 ## Instalación y Ejecución
 1. Clonar el repositorio:
-`git clone https://github.com/David-Gonzalez-Alcañiz/torneo-esports-uml.git`
+`git clone git@github.com:David-Gonzalez-Alcaniz/torneo-esports-uml.git`
 
 2. Compilar y ejecutar el proyecto:
 `cd src javac es/empresa/torneo/Main.java java es.empresa.torneo.Main`
@@ -44,4 +44,8 @@ torneo-esports-uml/ ├── src/
 Por qué se eligió esa estructura y cómo se organizan las clases.
 
 ## Conclusiones
-Sobre el aprendizaje obtenido.# torneo-esports-uml
+En este proyecto, he aprendido nuevos conceptos, nuevos métodos y una nueva lógica (como si fuese el sistema).
+Inicialmente fue complejo de entender, ya que tienes que cambiar la visión y pensar desde otro lugar. Una vez entendido, se hace ameno.
+Me ha parecido muy interesante el diseño UML, ya que te permite una organización visual de lo que a futuro será el programa junto a sus clases, atributos, relaciones, dependencias, etc.
+
+
