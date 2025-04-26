@@ -74,36 +74,36 @@ Clases: Jugadores y Equipos.
 
  Atributos de Clase Jugador:
   
-- playerId: type int
-- playerName: type String
-- playerLastName: type String
-- playerEmail: type String
-- playerGender: type char
-- playerBirthdate: type Date
-- playerNationality: type String
-- playerPosition: type String
-- playerEntryDate: type Date
-- playerTeam: type Team
+- playerId: int
+- playerName: String
+- playerLastName: String
+- playerEmail: String
+- playerGender: char
+- playerBirthdate: Date
+- playerNationality: String
+- playerPosition: String
+- playerEntryDate: Date
+- playerTeam: Team
 
 Atributos de la Clase Equipo:
 
-- teamId: type int
-- teamName: type String
-- teamColorKit: type String
-- teamEntryDate: Date
-- teamPlayers: type List<Player>
+- teamId: int
+- teamName: String
+- teamColorKit: String
+- teamEntryDate:
 
 Métodos de la Clase Jugador:
 
-+ playerValidation(): type boolean
-+ registerTeam(): type Team
++ playerValidation(): boolean
++ registerTeam(): Team
++ showPlayer(): String
 
 Métodos de la Clase Equipo:
 
-+ teamValidation(): type boolean
-+ addPlayer2Team (): type Player
-+ deletePlayer2Team(): type Player
-+ showTeam(): type void
++ teamValidation(): boolean
++ addPlayer2Team (): Player
++ deletePlayer2Team(): Player
++ showTeam(): List<Player>
 
 
 #### Establece relaciones entre clases, asegurando la correcta representación de asociaciones, agregaciones y composiciones.
