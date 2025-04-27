@@ -90,7 +90,7 @@ Atributos de la Clase Equipo:
 - teamId: int
 - teamName: String
 - teamColorKit: String
-- teamEntryDate:
+- teamEntryDate: Date
 
 Métodos de la Clase Jugador:
 
