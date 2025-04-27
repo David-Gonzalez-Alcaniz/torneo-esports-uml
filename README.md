@@ -53,7 +53,7 @@ En este caso, los actores serían:
 
 Las acciones que puede realizar cada actor son:
 
-* Actor 1 - Administrador: puede acceder a toda la gestion de equipos y jugadores (registrar equipo, añadir jugadores a un equipo, validar datos del jugador/equipo y consultar listas de jugadpres/equipos).
+* Actor 1 - Administrador: puede acceder a toda la gestión de equipos y jugadores (registrar equipo, añadir jugadores a un equipo, validar datos del jugador/equipo y consultar listas de jugadores/equipos).
 
 * Actor 2 - Jugador: en esta parte del proyecto, tiene el mismo acceso que el administrador, ya que este podrá registrar, validar y consultar jugadores/equipos.
 
@@ -108,7 +108,7 @@ Métodos de la Clase Equipo:
 
 #### Establece relaciones entre clases, asegurando la correcta representación de asociaciones, agregaciones y composiciones.
 
-En este caso, la relación entre jugadores y equipos sería de agregación (ya que varios jugadores componen un equipo, pero el juegador puede seguir existiendo aunque no esté en ningún equipo) y cardinalidad uno a muchos (en un equipo hay varios jugadores mientras que un jugador pertenece a un equipo).
+En este caso, la relación entre jugadores y equipos sería de agregación (ya que varios jugadores componen un equipo, pero el jugador puede seguir existiendo, aunque no esté en ningún equipo) y cardinalidad uno a muchos (en un equipo hay varios jugadores mientras que un jugador pertenece a un equipo).
 
 ## Conclusiones
 En este proyecto, he aprendido nuevos conceptos, nuevos métodos y una nueva lógica (como si fuese el sistema).
