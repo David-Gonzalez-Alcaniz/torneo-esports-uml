@@ -108,7 +108,7 @@ Métodos de la Clase Equipo:
 
 #### Establece relaciones entre clases, asegurando la correcta representación de asociaciones, agregaciones y composiciones.
 
-En este caso, la relación entre jugadores y equipos sería de uno a muchos (en un equipo hay varios jugadores mientras que un jugador pertenece a un equipo).
+En este caso, la relación entre jugadores y equipos sería de agregación (ya que varios jugadores componen un equipo, pero el juegador puede seguir existiendo aunque no esté en ningún equipo) y cardinalidad uno a muchos (en un equipo hay varios jugadores mientras que un jugador pertenece a un equipo).
 
 ## Conclusiones
 En este proyecto, he aprendido nuevos conceptos, nuevos métodos y una nueva lógica (como si fuese el sistema).
